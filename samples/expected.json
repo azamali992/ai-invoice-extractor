@@ -1,0 +1,177 @@
+{
+  "01_us_saas_invoice.pdf": {
+    "vendor_name": "Northwind Cloud Labs",
+    "customer_name": "Bluegate Logistics LLC",
+    "vendor_tax_id": null,
+    "invoice_number": "NCL-2026-0412",
+    "invoice_date": "2026-09-14",
+    "due_date": "2026-10-14",
+    "currency": "USD",
+    "subtotal": 2260.0,
+    "tax": 228.26,
+    "shipping": null,
+    "discount": null,
+    "total": 2488.26,
+    "line_items": [
+      {
+        "description": "Platform subscription - Team plan (Sep)",
+        "quantity": 1,
+        "unit_price": 1200.0,
+        "amount": 1200.0
+      },
+      {
+        "description": "Additional seats",
+        "quantity": 8,
+        "unit_price": 45.0,
+        "amount": 360.0
+      },
+      {
+        "description": "Onboarding workshop",
+        "quantity": 2,
+        "unit_price": 350.0,
+        "amount": 700.0
+      }
+    ],
+    "should_flag": false
+  },
+  "02_uk_supplier_vat.pdf": {
+    "vendor_name": "Ashford & Pell Supplies Ltd",
+    "customer_name": "Kestrel Cafe Group",
+    "vendor_tax_id": "GB 284 1193 07",
+    "invoice_number": "AP-77810",
+    "invoice_date": "2026-09-03",
+    "due_date": "2026-10-03",
+    "currency": "GBP",
+    "subtotal": 580.0,
+    "tax": 111.0,
+    "shipping": null,
+    "discount": 25.0,
+    "total": 666.0,
+    "line_items": [
+      {
+        "description": "Compostable cups 12oz (case of 1000)",
+        "quantity": 6,
+        "unit_price": 64.5,
+        "amount": 387.0
+      },
+      {
+        "description": "Coffee filters (box)",
+        "quantity": 12,
+        "unit_price": 8.75,
+        "amount": 105.0
+      },
+      {
+        "description": "Napkins 2-ply (case)",
+        "quantity": 4,
+        "unit_price": 22.0,
+        "amount": 88.0
+      }
+    ],
+    "should_flag": false
+  },
+  "03_wrong_subtotal.pdf": {
+    "vendor_name": "Ridgeway Print Co.",
+    "customer_name": "Oakline Realty",
+    "vendor_tax_id": null,
+    "invoice_number": "RP-10933",
+    "invoice_date": "2026-08-29",
+    "due_date": null,
+    "currency": "USD",
+    "subtotal": 676.0,
+    "tax": 55.77,
+    "shipping": 35.0,
+    "discount": null,
+    "total": 766.77,
+    "line_items": [
+      {
+        "description": "Business cards, 500 qty",
+        "quantity": 4,
+        "unit_price": 38.0,
+        "amount": 152.0
+      },
+      {
+        "description": "Yard signs 18x24",
+        "quantity": 10,
+        "unit_price": 14.5,
+        "amount": 145.0
+      },
+      {
+        "description": "Brochure tri-fold, 1000 qty",
+        "quantity": 1,
+        "unit_price": 289.0,
+        "amount": 289.0
+      }
+    ],
+    "should_flag": true
+  },
+  "04_phone_receipt.png": {
+    "vendor_name": "CORNER GROCER",
+    "customer_name": null,
+    "vendor_tax_id": null,
+    "invoice_number": "004417",
+    "invoice_date": "2026-09-30",
+    "due_date": null,
+    "currency": "CAD",
+    "subtotal": 30.76,
+    "tax": 4.0,
+    "total": 34.76,
+    "shipping": null,
+    "discount": null,
+    "line_items": [
+      {
+        "description": "Olive oil 1L",
+        "quantity": 1,
+        "unit_price": null,
+        "amount": 12.99
+      },
+      {
+        "description": "Basmati rice 2kg",
+        "quantity": 2,
+        "unit_price": null,
+        "amount": 12.98
+      },
+      {
+        "description": "Eggs dozen",
+        "quantity": 1,
+        "unit_price": null,
+        "amount": 4.79
+      }
+    ],
+    "should_flag": false
+  },
+  "05_scanned_invoice.pdf": {
+    "vendor_name": "Brightwater Electrical",
+    "customer_name": "Harbourside Dental Practice",
+    "vendor_tax_id": "GB 611 4402 19",
+    "invoice_number": "BWE-3381",
+    "invoice_date": "2026-09-22",
+    "due_date": null,
+    "currency": "GBP",
+    "subtotal": 387.8,
+    "tax": 77.56,
+    "shipping": null,
+    "discount": null,
+    "total": 465.36,
+    "line_items": [
+      {
+        "description": "Emergency call-out",
+        "quantity": 1,
+        "unit_price": 95.0,
+        "amount": 95.0
+      },
+      {
+        "description": "Labour (hours)",
+        "quantity": 3.5,
+        "unit_price": 48.0,
+        "amount": 168.0
+      },
+      {
+        "description": "LED panel 600x600",
+        "quantity": 4,
+        "unit_price": 31.2,
+        "amount": 124.8
+      }
+    ],
+    "should_flag": false
+  }
+}
