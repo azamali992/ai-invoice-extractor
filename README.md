@@ -35,6 +35,13 @@ Optional: `GEMINI_MODEL` (default `gemini-flash-latest`), `ANTHROPIC_MODEL` (def
 
 Click **Try with 5 sample documents** to see it work. One sample has a subtotal that is off by 90.00, so you'll see a flag.
 
+Or with Docker:
+
+```bash
+docker build -t invoice-extractor .
+docker run -p 8501:8501 --env-file .env invoice-extractor
+```
+
 ## Batch mode
 
 ```bash
